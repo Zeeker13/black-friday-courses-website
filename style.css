@@ -51,10 +51,8 @@
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    line-height: 26px;
     text-align: center;
     background-color: #BC230A;
-
     border: none;
     padding: 10px 20px;
   }
@@ -219,13 +217,14 @@ font-weight: 600;
 
 
 .black-friday-title {
+    padding-top: 92px;
     font-family: 'Jost', sans-serif;
     font-size: 24px;
     font-weight: 600;
     line-height: 34.68px;
     text-align: center;
     color: #141414;
-    padding: 10px 0;
+
   }
   
   .black-friday-heading {
@@ -251,7 +250,6 @@ font-weight: 600;
   }
   
 .btn {
-    border-radius: 25px;
     font-weight: 500;
 }
 
@@ -461,4 +459,52 @@ line-height: 26.01px;
   padding-right: 14px;
   padding-bottom: 10px;
   background-repeat: no-repeat;
+}
+
+
+
+/* COUNT DOWN */
+
+
+.countdown {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.days {
+  
+font-family: Jost;
+font-size: 24px;
+font-weight: 400;
+display: flex;
+justify-content: center;
+
+}
+
+.time-unit span {
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+label {
+    font-size: 1rem;
+    color: #999;
+}
+
+
+
+
+
+.view-more-button{
+
+  border-color: #FF9B43;
+  color: #FF9B43;
+  font-size: 18px;
+  background-color: transparent; 
+  border-radius: 5px;
+  border-style: solid;
+
+      
 }
