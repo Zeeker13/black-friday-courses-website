@@ -354,9 +354,8 @@ text-underline-position: from-font;
 
 font-size: 26.09px;
 font-weight: 600;
-line-height: 37.7px;
-text-align: left;
-
+padding-left: 5px;
+color: #fff;
 
 }
 
@@ -364,8 +363,8 @@ text-align: left;
 
 font-size: 18.09px;
 font-weight: 600;
-line-height: 26.14px;
-text-align: left;
+color: #fff;
+
 
 
 }
@@ -393,6 +392,9 @@ line-height: 26.01px;
   
 }
 
+.logo-img{
+  justify-content: center;
+}
 
 
 /*Exlpore Courses Cards*/
@@ -400,6 +402,7 @@ line-height: 26.01px;
 .card-container {
   border: 1px solid #0AA3BC;
   border-radius: 10px;
+  background-color: #FFE7E1;
   overflow: hidden;
 }
 
@@ -451,4 +454,11 @@ line-height: 26.01px;
  
 
 
+}
+
+.image-off{
+  background-image: url("Star2.png");
+  padding-right: 14px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
 }
