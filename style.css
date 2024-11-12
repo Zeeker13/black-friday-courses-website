@@ -1,3 +1,6 @@
+.body{
+  font-family: 'Jost', sans-serif;
+}
 
 
 .hero-section {
@@ -13,7 +16,6 @@
     font-family: 'Jost', sans-serif;
     font-size: 24px;
     font-weight: 500;
-    line-height: 28px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
@@ -22,14 +24,10 @@
 
  
   .hero-section h1 {
-    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 68px;
     font-weight: 700;
-    line-height: 78px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    margin-bottom: 1.5rem;
+    padding-bottom: 10px;
+
   }
   
   /* List items (e.g., "Exclusive deals and discounts") styling */
@@ -63,10 +61,10 @@
 
   .explore-courses-title{
     font-family: 'Jost', sans-serif;
-    padding-top: 10px;
     font-size: 24px;
     font-weight: 600;
     padding-top: 40px;
+    padding-bottom: 10px;
 
 
     align-items: left;
@@ -80,13 +78,65 @@
 
   }
 
-  .explore-courses-description{font-family: Jost;
+  .badge-overlay-top{
+
+      background-image: url("Star2.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-right: 49px;
+      padding-bottom: 5px;
+      
+  }
+
+ .in-circle{
+    
+    align-items: center;
+    
+  
+  }
+
+  .upto{
+    
+
+font-size: 16px;
+color: #fff;
+font-weight: 600;
+  }
+
+  .red-circle-40{
+
+font-size: 30.09px;
+font-weight: 600;
+
+  }
+
+
+
+  .red-circle-upto{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 23.12px;
+    text-align: left;
+  }
+
+  /* .red-circle-40{
+    font-size: 30.09px;
+    font-weight: 600;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  } */
+
+
+  .explore-courses-description{
+    max-width: 713px;
     font-size: 22px;
     font-weight: 400;
     line-height: 38px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    padding-bottom: 30px;
     }
   
 
@@ -166,11 +216,6 @@
     margin-right: 8px;
   }
   
-  
-
-.container {
-    padding: 20px;
-}
 
 
 .black-friday-title {
@@ -226,11 +271,184 @@
 }
 
 
+.line-98{
+  position: relative;
+  padding-bottom: 15px;
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+}
+
+/*footer cards*/
+
+.card {
+  border: none;
+  border-radius: 8px;
+  border: 1px solid #DADADA;
+  
+}
+
+.badge {
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #0AA4BD33;
+  color: #00A56F; 
+
+
+}
+
+.dip{
+font-size: 22px;
+font-weight: 600;
+line-height: 31.79px;
+text-align: left;
+text-underline-position: from-font;
+padding-top: 10px;
+
 }
 
 
+.text-dan{
+  color: #000;
+  
+font-size: 32px;
+font-weight: 600;
+line-height: 46.24px;
+text-align: left;
+
+
+
+
+}
+
+.justify-content-centers{
+
+  justify-content: space-between;
+}
+
+
+.pricing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.extra-cards {
+  display: none;
+}
+
+.text-muted{
+
+font-size: 20px;
+font-weight: 500;
+line-height: 28.9px;
+text-align: left;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+
+
+}
+
+.red-circle-35{
+
+font-size: 26.09px;
+font-weight: 600;
+line-height: 37.7px;
+text-align: left;
+
+
+}
+
+.red-circle-off{
+
+font-size: 18.09px;
+font-weight: 600;
+line-height: 26.14px;
+text-align: left;
+
+
+}
+
+.line{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buy-now-btn {
+  background-color: transparent; 
+  border: none;                 
+
+  color: #141414;                
+  display: flex;               
+  align-items: left;         
+  gap: 8px;                 
+  cursor: pointer;             
+  box-shadow: none;            
+  outline: none;     
+font-size: 18px;
+font-weight: 500;
+line-height: 26.01px;
+
+  
+}
+
+
+
+/*Exlpore Courses Cards*/
+
+.card-container {
+  border: 1px solid #0AA3BC;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+
+
+.discount-badge {
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.code {
+  background-color: #f1f5f9;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.btn-explore {
+  background: #0AA3BC;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28.9px;
+  border: none;
+  padding: 10px;
+  border-radius: 0 0 10px 10px;
+  align-items: left;
+  width: 100%
+
+}
+
+.quality-lic{
+
+
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #0AA4BD33;
+    color: #00A56F; 
+    padding: 10px;
+    border-radius: 8px;
+ 
+
+
+}
