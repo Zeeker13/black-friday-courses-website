@@ -78,7 +78,7 @@
 
   .badge-overlay-top{
 
-      background-image: url("Star2.png");
+      background-image: url("https://southlondoncollege.org/wp-content/uploads/2024/11/Star2.png");
       background-repeat: no-repeat;
       background-size: cover;
       padding-right: 49px;
@@ -196,7 +196,7 @@ font-weight: 600;
   }
 
   .contactus-css {
-    background-image: url("Needassimage.png");
+    background-image: url("https://southlondoncollege.org/wp-content/uploads/2024/11/Needassimage.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -455,7 +455,7 @@ line-height: 26.01px;
 }
 
 .image-off{
-  background-image: url("Star2.png");
+  background-image: url("https://southlondoncollege.org/wp-content/uploads/2024/11/Star2.png");
   padding-right: 14px;
   padding-bottom: 10px;
   background-repeat: no-repeat;
@@ -493,8 +493,17 @@ label {
     color: #999;
 }
 
+.arrow-icon{
+
+ justify-content: right;
 
 
+}
+.stars{
+  padding-top: 4px;
+  padding-left: 13px;
+  font-size: 16px;
+}
 
 
 .view-more-button{
@@ -503,8 +512,50 @@ label {
   color: #FF9B43;
   font-size: 18px;
   background-color: transparent; 
-  border-radius: 5px;
+  border-radius: 10px;
   border-style: solid;
 
-      
+}
+
+
+/*Categorie Section*/
+
+
+.categories {
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 1000px;
+ justify-content: center;
+ 
+
+}
+
+.category-button {
+
+font-size: 18px;
+font-weight: 400;
+  display: flex;
+  padding: 8px 10px;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #14141433;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+
+.category-button .icon {
+  font-size: 18px;
+}
+
+.category-button.active,
+.category-button:hover {
+  background-color: #FF9B4333;
+  border-color: #ff8f3d;
+  color: #ff8f3d;
 }
