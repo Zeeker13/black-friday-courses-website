@@ -57,6 +57,8 @@
     padding: 10px 20px;
   }
 
+  
+
   .explore-courses-title{
     font-family: 'Jost', sans-serif;
     font-size: 24px;
@@ -76,16 +78,7 @@
 
   }
 
-  .badge-overlay-top{
-
-      background-image: url("https://southlondoncollege.org/wp-content/uploads/2024/11/Star2.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      padding-right: 49px;
-      padding-bottom: 5px;
-      
-  }
-
+  
  .in-circle{
     
     align-items: center;
@@ -197,6 +190,7 @@ font-weight: 600;
 
   .contactus-css {
     background-image: url("https://southlondoncollege.org/wp-content/uploads/2024/11/Needassimage.png");
+    border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -299,7 +293,7 @@ font-weight: 600;
 line-height: 31.79px;
 text-align: left;
 text-underline-position: from-font;
-padding-top: 10px;
+padding-top: 30px;
 
 }
 
@@ -324,9 +318,8 @@ text-align: left;
 
 
 .pricing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   padding-top: 5px;
+ gap: 5px;
 }
 
 
@@ -348,11 +341,20 @@ text-underline-position: from-font;
 
 }
 
+.image-off {
+  background-image: url("redcircle.png");
+  background-repeat: no-repeat;
+ 
+  padding: 15px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .red-circle-35{
 
 font-size: 26.09px;
 font-weight: 600;
-padding-left: 5px;
 color: #fff;
 
 }
@@ -362,10 +364,47 @@ color: #fff;
 font-size: 18.09px;
 font-weight: 600;
 color: #fff;
+margin-top: -10px;
+margin-left: 15px;
 
 
 
 }
+
+/*Copyclipboard*/
+
+.copy-paste{
+  padding-top: 20px;
+  width: 193px;
+}
+
+.copy-code {
+ 
+  border: 2px dashed #00bcd4; /* Blue border */
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+.copy-icon {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #000;
+  cursor: pointer;
+  
+}
+
+.codeText{
+  padding-left: 10px;
+}
+
+.divider {
+  padding-left: 10px;
+  color: #000;
+}
+
+
+
 
 .line{
   padding-top: 10px;
@@ -401,7 +440,7 @@ line-height: 26.01px;
   border: 1px solid #0AA3BC;
   border-radius: 10px;
   background-color: #FFE7E1;
-  overflow: hidden;
+  
 }
 
 
@@ -454,12 +493,6 @@ line-height: 26.01px;
 
 }
 
-.image-off{
-  background-image: url("https://southlondoncollege.org/wp-content/uploads/2024/11/Star2.png");
-  padding-right: 14px;
-  padding-bottom: 10px;
-  background-repeat: no-repeat;
-}
 
 
 
@@ -501,7 +534,7 @@ label {
 }
 .stars{
   padding-top: 4px;
-  padding-left: 13px;
+  padding-left: 30px;
   font-size: 16px;
 }
 
@@ -522,6 +555,8 @@ label {
 
 
 .categories {
+  padding-bottom: 17px;
+
   padding-top: 40px;
   display: flex;
   flex-wrap: wrap;
